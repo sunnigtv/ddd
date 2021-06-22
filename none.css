@@ -1,0 +1,15 @@
+.none {
+    text-decoration: none;
+    
+}
+.abc {
+    font-weight: 700;
+}
+div>ul>li[www]:after {
+    content: "|";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
